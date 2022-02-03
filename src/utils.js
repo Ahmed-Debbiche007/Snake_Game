@@ -3,8 +3,8 @@ const ctx = canvas.getContext('2d');
 const div = document.getElementById('div');
 const reload = document.createElement("button");
 
-const Sound = new Audio('assets/Sound/sound.mp3');
-const Sound1 = new Audio('assets/Sound/glup.mp3');
+const Sound = new Audio('src/assets/Sound/sound.mp3');
+const Sound1 = new Audio('src/assets/Sound/glup.mp3');
 
 class SnakePart {
     constructor(x, y) {
@@ -178,3 +178,4 @@ export const keyDown = (event) => {
         inputsXVelocity = 1
     }
 }
+reload.addEventListener('click', () => location.reload());
