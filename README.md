@@ -1,2 +1,3 @@
 # Snake_Game
-playing around with javascript
+I created a snake game with javacript
+![](/assets/Sound/readme.gif)
