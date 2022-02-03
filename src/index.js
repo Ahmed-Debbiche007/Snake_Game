@@ -8,4 +8,3 @@ const onClick = () => {
 
 document.body.addEventListener('keydown', keyDown);
 snake.addEventListener('click', onClick);
-reload.addEventListener('click', () => location.reload());
